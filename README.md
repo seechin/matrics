@@ -1,12 +1,12 @@
 # matrics
 
-Do matrix math in shell
+Do matrix math in shell and terminals
 
 # installation:
 
 matrics requires Fortran and Lapack:
 
-g++ -L/usr/local/gfortran/lib -L/PATH_TO_LAPACK/lib -lgfortran -lm -lblas -llapack -lpthread -o matrics matrics.cpp
+g++ -L/usr/local/gfortran/lib -L/PATH_TO_LAPACK/lib -lgfortran -lm -lblas -llapack -o matrics matrics.cpp
 
 # use:
 
