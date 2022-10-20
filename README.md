@@ -54,8 +54,11 @@ matrics A sum/average/stdev     // compute the sum/average/stdev of each element
 ## format string
 
 -%.15g       double format, and everything displays in a single line
+
 ---%.15g     double format, print in N rows and N columns
+
 -dd          double format, print in N rows and N columns
+
 -wolfram     the matrix format used in Mathematica
 
 ## max dimension
