@@ -6,7 +6,7 @@ Do matrix math in shell
 
 matrics requires Fortran and Lapack:
 
-g++ -L/usr/local/gfortran/lib -L/PATH_TO_LAPACK/lib -lgfortran -lm -lblas -llapack -lpthread -o $1 $1.cpp
+g++ -L/usr/local/gfortran/lib -L/PATH_TO_LAPACK/lib -lgfortran -lm -lblas -llapack -lpthread -o matrics matrics.cpp
 
 # use:
 
